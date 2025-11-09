@@ -1,0 +1,24 @@
+body{
+    background-color: beige;
+}
+#learn{
+    background: linear-gradient(to right, brown, orange);
+    -webkit-background-clip: text;
+        color: transparent;
+        text-decoration: underline;
+}
+#cards{
+    .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+    
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+}
+#body1{
+    background: linear-gradient(to bottom right, #fff8e7, #fdf2e9);
+        font-family: "Poppins", sans-serif;
+        color: #333;
+}

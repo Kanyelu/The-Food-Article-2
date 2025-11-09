@@ -1,0 +1,23 @@
+#contactheading {
+    text-align: center;
+    margin-top: 20px;
+    color: brown;
+    text-decoration: underline;
+}
+#contactbody{
+    background-color: antiquewhite;
+    margin: 20px;
+    
+}
+#contactimg{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#gmail{
+    border-radius: 10px;
+}
+#phone{
+    border-radius: 10px;
+}

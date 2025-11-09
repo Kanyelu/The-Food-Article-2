@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Food Article - Options</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="options.css">
+    <style>
+        /* Card hover */
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Sidebar */
+        #Sidebar {
+            background: linear-gradient(180deg, #6b1e0e, #ff8c00);
+            border-right: 2px solid rgba(0, 0, 0, 0.08);
+            min-height: 100vh;
+            padding: 1.5rem;
+        }
+
+        #Sidebar h4 {
+            color: #fff;
+            font-weight: 600;
+            text-transform: uppercase;
+            border-bottom: 2px solid #fff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        #Sidebar .nav-link {
+            color: #fff;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        #Sidebar .nav-link:hover {
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #000 !important;
+            transform: translateX(5px);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Page background */
+        body {
+            background-color: beige;
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav id="Sidebar" class="col-3 col-md-2 ">
+                <h4>Menu</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a id="About" class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a id="contact" class="nav-link mt-5" href="contact.html">Contact</a></li>
+                    <li class="nav-item mt-5"><a id="recipes" class="nav-link" href="recipes.html">Recipes</a></li>
+                </ul>
+            </nav>
+
+            <!-- Main content -->
+            <main class="col-9 col-md-10 p-4">
+                <h1 id="learn" class="mt-4" style="text-align:center; text-decoration:underline;">What would you like to
+                    learn about?</h1>
+
+                <div class="row mt-4">
+                    <!-- Card 1 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="avocado(bg).jfif" class="card-img-top" alt="Super-Foods">
+                            <div class="card-body">
+                                <h5 class="card-title">Super-Foods</h5>
+                                <p class="card-text">Learn about the benefits of a lot of superfoods and how to
+                                    incorporate them into your diet.</p>
+                                <a href="https://www.healthline.com/nutrition/true-superfoods"
+                                    class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="Pastries.jfif" class="card-img-top" alt="Pastries">
+                            <div class="card-body">
+                                <h5 class="card-title">Pastries</h5>
+                                <p class="card-text">Explore a variety of delicious pastries from around the world and
+                                    learn their history.</p>
+                                <a href="https://www.pastryisart.com/most-popular-types-of-pastries"
+                                    class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="salad.jfif" class="card-img-top" alt="Salad Ideas">
+                            <div class="card-body">
+                                <h5 class="card-title">Salad Ideas</h5>
+                                <p class="card-text">Delicious salads that are easy to make and packed with nutrients.
+                                </p>
+                                <a href="https://www.loveandlemons.com/salad-recipes/" class="btn btn-primary">Learn
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="local dish.jfif" class="card-img-top" alt="Local Dishes">
+                            <div class="card-body">
+                                <h5 class="card-title">Local Dishes</h5>
+                                <p class="card-text">Discover traditional dishes from our native cultures and how to
+                                    make them.</p>
+                                <a href="https://allnigerianfoods.com/" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="fruits.jfif" class="card-img-top" alt="Fresh Fruits">
+                            <div class="card-body">
+                                <h5 class="card-title">Fresh Fruits</h5>
+                                <p class="card-text">Learn about the benefits and science of fresh fruits and how to
+                                    incorporate them into your diet.</p>
+                                <a href="https://www.medicalnewstoday.com/articles/324431" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="nuts.jfif" class="card-img-top" alt="Nutritious Nuts">
+                            <div class="card-body">
+                                <h5 class="card-title">Nutritious Nuts</h5>
+                                <p class="card-text">Learn about different nuts, their benefits, and how to use them in
+                                    meals and snacks.</p>
+                                <a href="https://www.cozymeal.com/magazine/healthiest-nuts"
+                                    class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+/* General page look */
+#body1 {
+    background: linear-gradient(to bottom right, #fff8e7, #fdf2e9);
+    font-family: "Poppins", sans-serif;
+    color: #333;
+}
+
+/* Sidebar styling */
+#Sidebar {
+    background: linear-gradient(180deg, #6b1e0e, #ff8c00);
+    border-right: 2px solid #222;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#Sidebar h4 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Sidebar links */
+#Sidebar .nav-link {
+    transition: all 0.3s ease;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+}
+
+#Sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000 !important;
+    transform: translateX(5px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Main content */
+main {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 30px;
+}
+
+/* Headings */
+main h1 {
+    font-size: 2.2rem;
+    color: #4b1e0e;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Paragraphs */
+main p {
+    line-height: 1.7;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+/* Fancy first letter */
+#a:first-letter {
+    font-size: 200%;
+    color: #8b0000;
+    font-weight: bold;
+}
+
+/* “Get Started” button style */
+#Get {
+    display: inline-block;
+    background: linear-gradient(to right, #28a745, #ff8c00);
+    border-radius: 12px;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+#Get:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ff8c00, #28a745);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Make links underlined only on hover */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
